@@ -83,7 +83,7 @@ button {
 #check-btn {
   display: inline-flex;
   gap: 10px;
-  margin-left: 40px;
+  margin-left: 100px;
   justify-content: center;
   background-color: var(--light-green);
 }
@@ -128,12 +128,22 @@ li {
   p {
     font-size: 16px;
   }
+  
+  input {
+    margin-left: 4%;
+  }
 }
 
 @media (max-width: 768px) {
   #container {
     width: 70%;
-    height: auto;
+    height: 90vh;
+    margin-bottom: 20px;
+  }
+
+  input {
+    margin-left: 4%;
+    width: 92%;
   }
 
   button {
@@ -183,4 +193,5 @@ li {
     font-size: 12px;
     margin: 5px;
   }
+
 }
