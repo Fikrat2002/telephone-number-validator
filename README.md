@@ -7,7 +7,8 @@ This telephone number validator is a robust tool designed using HTML, CSS, and J
 ## Demo 📸
 
 - Take a glimpse of the page below: 
-(#<img width="648" alt="Screenshot 2024-07-05 190946" src="https://github.com/Fikrat2002/telephone-number-validator/assets/168417613/12362a11-43ba-41f8-b73f-ef0bcf5461ac">)
+
+(#<img width="947" alt="Screenshot 2024-07-06 094125" src="https://github.com/Fikrat2002/telephone-number-validator/assets/168417613/eeff5a97-78e8-4fd5-91fb-ca17f82846db">)
 
 ## Deployment
 - 
