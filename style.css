@@ -121,9 +121,9 @@ li {
     margin-left: auto;
     margin-right: auto;
     width: 50%;
-}
-  
-  p {
+  }
+
+p {
     font-size: 16px;
   }
 }
@@ -132,17 +132,19 @@ li {
   #container {
     width: 70%;
     height: auto;
-}
+  }
+
   button {
     width: 100%;
     margin: 5px 0;
   }
 
-  #check-btn, #clear-btn {
+  #check-btn, 
+  #clear-btn {
     display: block;
     margin: 10px auto;
   }
-  
+
   p {
     font-size: 14px;
     margin: 10px;
@@ -151,33 +153,32 @@ li {
 
 @media (max-width: 480px) {
   body {
-      background-size: contain;
-      margin-top: 20px;
-      padding: 10px;
-}
-  
+    background-size: contain;
+    margin-top: 20px;
+    padding: 10px;
+  }
+ 
   #container {
     width: 90%;
     padding: 10px;
     height: auto;
-}
-  
+  }
+
   h1 {
-      font-size: 18px;
-    }
-  
+    font-size: 18px;
+  }
+
   input {
-      width: 100%;
+    width: 100%;
   }
-  
+
   button {
-      font-size: 14px;
-      padding: 8px;
+    font-size: 14px;
+    padding: 8px;
   }
-  
+
   p {
-      font-size: 12px;
-      margin: 5px;
-    }
+    font-size: 12px;
+    margin: 5px;
+  }
 }
-  
