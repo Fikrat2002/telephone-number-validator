@@ -1,0 +1,183 @@
+:root {
+  --cream: hsl(50, 38%, 94%);
+  --dark-green: rgba(2, 31, 23, 0.79);
+  --green: rgba(10, 72, 49, 0.815);
+  --light-green: rgba(7, 159, 12, 0.747);
+  --red: rgba(243, 87, 84, 0.904);
+  --gold: hsla(41, 93%, 78%, 0.929);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+  display: block;
+  background-image: url(WhatsApp\ Image\ 2024-07-05\ at\ 14.06.33_49b7381d.jpg);
+  background-size: 900px 900px;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-bottom: 15px;
+  margin: 0 auto;
+  margin-top: 65px;
+}
+
+#container {
+  display: block;
+  align-items: center;
+  margin: 0 auto;
+  background-image: url(WhatsApp\ Image\ 2024-07-05\ at\ 12.46.08_ad603b62.jpg);
+  background-size: cover;
+  background-position: center;
+  margin-left: 780px;
+  margin-right: 800px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  padding-bottom: 10px;
+  padding-top: 20px;
+  height: 800px;
+  border-radius: 40px;
+  width: 20%;
+}
+
+h1 {
+  padding: 10px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  color: var(--green);
+  font-size: 23px;
+  text-align: center;
+}
+
+input {
+  outline: none;
+  display: block;
+  margin: auto;
+  margin-top: 5px;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  box-shadow: var(--gold);
+  text-align: center;
+  border-radius: 5px;
+  border: solid var(--green);
+}
+
+button {
+  font-size: 16px;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  border: solid var(--green);
+  cursor: pointer;
+  color: white;
+}
+
+#check-btn {
+  display: inline-flex;
+  gap: 2px;
+  margin-left: 115px;
+  justify-content: center;
+  background-color: var(--light-green);
+}
+
+#clear-btn {
+  display: inline-flex;
+  gap: 2px;
+  margin: 0 auto;
+  justify-content: center;
+  margin-left: 10px;
+  background-color: var(--red);
+}
+
+li {
+  list-style-type: none;
+  margin-bottom: 1.5rem;
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+.valid {
+  background-color: var(--light-green);
+  color: var(--cream);
+}
+
+.invalid {
+  background-color: var(--red);
+  color: var(--cream);
+}
+
+#results-div {
+  margin-top: 1.5rem;
+}
+
+@media (max-width: 1200px) {
+  #container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+  
+  p {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 768px) {
+  #container {
+    width: 70%;
+    height: auto;
+}
+  button {
+    width: 100%;
+    margin: 5px 0;
+  }
+
+  #check-btn, #clear-btn {
+    display: block;
+    margin: 10px auto;
+  }
+  
+  p {
+    font-size: 14px;
+    margin: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  body {
+      background-size: contain;
+      margin-top: 20px;
+      padding: 10px;
+}
+  
+  #container {
+    width: 90%;
+    padding: 10px;
+    height: auto;
+}
+  
+  h1 {
+      font-size: 18px;
+    }
+  
+  input {
+      width: 100%;
+  }
+  
+  button {
+      font-size: 14px;
+      padding: 8px;
+  }
+  
+  p {
+      font-size: 12px;
+      margin: 5px;
+    }
+}
+  
