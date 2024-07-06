@@ -7,18 +7,19 @@ function checkNumber() {
   const regex = /^(1\s?)?(\(\d{3}\)|\d{3})[\s\-]?\d{3}[\s\-]?\d{4}$/;
 
   if (userInput.value === "") {
-    return alert('Please provide a phone number');
+    alert('Please provide a phone number');
+    return;
   }
 
-  let item = document.createElement('li');
+  const item = document.createElement('li');
   resultsDiv.appendChild(item);
 
   if (regex.test(userInput.value)) {
-    item.innerHTML = 'Valid US number: ' + userInput.value;
+    item.textContent = `Valid US number: ${userInput.value}`;
     item.classList.add('valid');
     userInput.value = "";
   } else {
-    item.innerHTML = 'Invalid US number: ' + userInput.value;
+    item.textContent = `Invalid US number: ${userInput.value}`;
     item.classList.add('invalid');
     userInput.value = "";
   }
